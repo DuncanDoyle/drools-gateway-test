@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+	<kbase name="kbase1" default="true">
+    	<ksession name="ksession.stateless" type="stateless"/>
+        <ksession name="ksession.stateful" default="true" type="stateful"/>
+	</kbase>
+</kmodule>

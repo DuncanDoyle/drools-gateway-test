@@ -1,0 +1,10 @@
+package org.jboss.btison.bpms.tests.pricing
+
+rule "Init"
+    ruleflow-group "init-rules"
+    no-loop true
+    when
+	  $sci : ShoppingCartItem( )
+    then
+	  System.out.println("init");
+end
